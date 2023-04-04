@@ -1,0 +1,82 @@
+.wrap {
+  margin-bottom: 10em;
+}
+body {
+  background-color: darkslategray;
+}
+
+.nav {
+  background-color: white;
+  top: -0.5em;
+  margin: 0em -0.5em 2em -0.5em;
+  padding: 1em;
+  border-style: solid;
+}
+.name {
+  font-size: 5em;
+  text-align: center;
+}
+.buttons {
+  text-align: right;
+  font-size: 2em;
+  padding: 0em 1em 0.5em 0em;
+}
+a {
+  color: black;
+  border-style: solid;
+  padding: 0.3em;
+}
+header {
+  background-color: white;
+  text-align: center;
+  font-size: 3em;
+  margin: 0em 1em 1em 1em;
+  border-style: solid;
+  padding: 0.5em;
+}
+.info {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  font-size: 3em;
+  margin: 0em 5em 0em 5em;
+  padding: 1em 0em 1em 0em;
+}
+footer {
+  background-color: white;
+  padding: 1em;
+  border-style: solid;
+  padding: 0.3em;
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+  position: fixed;
+  bottom: 0em;
+  left: 0em;
+  right: 0em;
+}
+.aboutMe {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  font-size: 2em;
+  margin: 0em 5em 0.2em 5em;
+  padding: 1em 0em 1em 0em;
+}
+.portfolio {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  font-size: 2em;
+  margin: 0em 5em 0.2em 5em;
+  padding: 1em 0em 1em 0em;
+}
+.onIt {
+  color: darkslateblue;
+}
+.Photo {
+  height: 20em;
+}
+.sig {
+  height: 1em;
+}
