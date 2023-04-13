@@ -1,0 +1,116 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  grid-template-columns: subgrid;
+}
+.two {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  text-align: center;
+}
+.three {
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  text-align: center;
+  margin-bottom: 10em;
+}
+.four {
+  grid-column: 2 / 3;
+  grid-row: 5;
+  text-align: center;
+}
+.sig {
+  height: 1em;
+}
+.nav {
+  background-color: white;
+  top: -0.5em;
+  margin: 0em -0.5em 2em -0.5em;
+  padding: 1em;
+  border-style: solid;
+}
+.name {
+  font-size: 5em;
+  text-align: center;
+}
+.buttons {
+  text-align: center;
+  font-size: 2em;
+  padding: 0em 1em 0.5em 0em;
+}
+body {
+  background-color: darkslategray;
+}
+a {
+  color: black;
+  border-style: solid;
+  padding: 0.3em;
+}
+header {
+  background-color: white;
+  text-align: center;
+  font-size: 3em;
+  margin: 0em 1em 1em 1em;
+  border-style: solid;
+  padding: 0.5em;
+}
+.info {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  font-size: 3em;
+  margin: 0em 0em 3em 0em;
+  padding: 1em 0em 1em 0em;
+}
+footer {
+  background-color: white;
+  padding: 1em;
+  border-style: solid;
+  padding: 0.3em;
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+  position: fixed;
+  bottom: 0em;
+  left: 0em;
+  right: 0em;
+}
+.aboutMe {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  font-size: 2em;
+}
+.portfolio {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  font-size: 2em;
+}
+.onIt {
+  color: darkslateblue;
+}
+img {
+  height: 30rem;
+  max-width: 100%;
+}
+.port {
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  text-align: center;
+  margin: 0em 0em 10em 0em;
+}
+@media screen and (max-width: 992px) {
+  a {
+    color: black;
+    border-style: none;
+    padding: 0.3em;
+  }
+}
